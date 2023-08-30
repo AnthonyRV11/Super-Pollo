@@ -1,0 +1,89 @@
+#titulo {
+    font-family: 'Lilita One', cursive;
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+body {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 10px;
+}
+  
+#sub {
+    font-family: 'Lilita One', cursive;
+    color: white;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#Parrafo {
+    text-align: center;
+}
+  
+@media only screen and (max-width: 750px) {
+    section div {
+      max-width: 90%;
+    }
+}
+
+.men {
+    text-decoration: none;
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+  
+.men:hover {
+    background-color: white; 
+    color: red; 
+}
+  
+.men:active {
+    background-color: red;
+    color: white; 
+}
+  
+div:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    font-family: 'Lilita One', cursive;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

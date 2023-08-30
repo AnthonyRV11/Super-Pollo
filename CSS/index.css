@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    font-family: Arial, sans-serif;
+}
+  
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: red;
+}
+  
+#titulo {
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
+}
+   
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+  
+#menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+  
+.men a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.men a:hover {
+    color: red;
+}
+  
+  
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px - 50px);
+}
+  
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.Eslogan {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+    
+  
+.btn {
+    font-family: 'Lilita One', cursive;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.btn:hover {
+    background-color: white;
+    color: red;
+}
+ 
+.btn i {
+    margin-right: 10px;
+}
+
+.men {
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+  
+.men:hover {
+    background-color: white; 
+    color: red; 
+}
+  
+.men:active {
+    background-color: white;
+    color: red; 
+}
+  
+.men {
+    margin-right: 10px; 
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 750px) {
+    #menu {
+        display: block;
+      
+    }
+    .men {
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.Eslogan{
+    font-family: 'Lilita One', cursive;
+}

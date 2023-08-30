@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Anthony">
+    <meta name = "description" content="Páginas Web">
+    <meta name = "keywords" content="html, javascript, css, publicar ">
+    <title>CONTACTANOS SUPER POLLO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/Logo_pollo.jpg" type="image_logo">
+    <link rel="stylesheet" href="CSS/Contactanos.css">
+    <script src="https://kit.fontawesome.com/90e1f67ec5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       <h1  id="titulo"><i class="fa-solid fa-mobile"></i> Contactanos</h1>
+    </header>
+     
+    <section>
+      <div id="informacion">
+        <h2 id="sub">Numeros de contacto:</h2>
+
+        <ul id="telefonos">
+          <li>87992564</li>
+          <li>86907412</li>
+        </ul>
+	   
+      </div>
+      <div id="informacion">
+        <h2 id="sub">Direccion:</h2>
+
+       <p id="texto">Nos encontramos hubicados en el Cruce de Cirri, 200 metros norte del INA</p>
+      </div>
+    </section>
+
+    <div class="form-container">
+      <h1>Recomendaciones</h1>
+      <form method="post" action="PHP/enviar_pedido.php">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="experiencia">Recomendaciones:</label>
+            <textarea id="experiencia" name="experiencia" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div class="submit">
+          <input type="submit" value="enviar" id="form-button" name="submit" class="men2">
+        </div>
+    </form>    
+    </div>    
+      
+    <h3> <a href="index.html" class="men">  Regresar </a> </h3>
+    <footer>
+      <div>
+          <p >Copyright © 2023 Super pollo el Cruce. Todos los derechos reservados.</p>
+      </div>
+      <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+      </div>
+  </footer>
+</body>
+</html>

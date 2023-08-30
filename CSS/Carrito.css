@@ -1,0 +1,212 @@
+body{
+  background-color: orange;
+  font-family: Arial, sans-serif;
+}
+#productos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #productos li {
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 40%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  #productos li:hover {
+    transform: translateX(5px);
+    background-color: red;
+    color: white;
+  }
+  
+  #carrito {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #carrito li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section > div:first-child {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  
+  section > div:last-child {
+    width: 40%;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  #comprar {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  #total {
+    font-weight: bold;
+  }
+  
+  section > div:first-child > ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  section > div:first-child > ul > li {
+    width: 30%;
+  }
+  
+  section > div:first-child > ul + h2 {
+    margin-top: 50px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  section > div {
+    margin: 0 20px;
+  }
+  
+  section > div > h2 {
+    text-align: center;
+  }
+  
+  section > div > ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section > div > ul > li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  section > div > ul > li:hover {
+    background-color: #ddd;
+  }
+  
+  #carrito {
+    max-height: 200px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  
+  
+  #carrito > li {
+    padding: 10px;
+    color: black;
+    margin-bottom: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  #carrito > li:hover {
+    background-color: #ddd;
+  }
+  
+  #carrito p {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  
+  #total {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  section > div + div {
+    margin-top: 50px;
+  }
+
+  footer {
+    font-family: 'Lilita One', cursive;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .men {
+    text-decoration: none;
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+  
+.men:hover {
+    background-color: white; 
+    color: red; 
+}
+  
+.men:active {
+    background-color: red;
+    color: white; 
+}
+
+#titulo {
+  background-color: red;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: 'Lilita One', cursive;
+}
+
+#letra{
+  font-family: 'Lilita One', cursive;
+}

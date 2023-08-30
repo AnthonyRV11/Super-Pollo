@@ -1,0 +1,95 @@
+body {
+    background-color: orange;
+}
+
+#titulo {
+    margin: auto;
+    width: 80%;
+    border-radius: 20px; 
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+  
+.fa-store {
+    margin-right: 10px;
+}
+  
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+  
+.item {
+    width: 300px;
+    background-color: #F2F2F2;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+  
+.item:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+  
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 5px;
+} 
+  
+ #titulo2 {
+    font-family: 'Lilita One', cursive;
+    border-radius: 20px; 
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.men {
+    text-decoration: none;
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+  
+.men:hover {
+    background-color: white; 
+    color: red; 
+}
+  
+.men:active {
+    background-color: red;
+    color: white; 
+}
+
+
+footer {
+    font-family: 'Lilita One', cursive;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
